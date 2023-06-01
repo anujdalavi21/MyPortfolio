@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+.sidebar{
+    background-color:rgb(184, 178, 178);
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    transition: tranform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size:30px;
+    padding-top: 33px;
+}
+
+.sidebar nav li a{
+   text-decoration: none;
+   color:black
+
+}
+
+.main{
+   /* background-color: yellow; */
+    width:90vw;
+}
+
+.container{
+    display:flex;
+
+}
+
+.infocontainer{
+ /* background-color: rgb(218, 74, 184); */
+    height: 58vh;
+    width:80vw;
+    margin: 144px auto;
+    display: flex;    
+    justify-content: space-around;
+
+}
+
+.hello{
+    font-size: 3em;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 2.5em;
+}
+.buttons{
+    margin-top: 2.2em;
+    font-size:16px;
+}
+.btn{
+    padding:9px 14px;
+    border-radius: 22px;
+    color:white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size:2em;
+    margin:3px 3px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:white;
+    color: dodgerblue;
+}
+
+.moreabout{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.devPic img{
+   /* width:230px;  */
+   height:58vh;
+
+}
+
+.devInfo{
+    display:flex;
+    align-items: baseline;
+    flex-direction:column;
+    justify-content:center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 10px;
+
+
+}
+
+.contactform{
+
+    font-family: 'Fira Sans', sans-serif;
+    padding-top: 140px;
+    padding: 0 34px;
+    margin: 0 88px;
+}
+
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+  /*  padding: 12px 0; */
+    
+}
+
+.contactform div{
+    padding:10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform{
+    margin: 0 40px;
+}
+
+.contactform form div input{
+  /*  width:26vw; */
+    border-radius: 5px;
+    margin:6px 0 0 0;
+    padding:3px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+
+    width:24px;
+    margin: 3px 0;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color:midnightblue;
+    margin: 0 5px;
+    padding:3px 0 0 0;
+
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding:7px 13px;
+    margin: 10px 0;
+
+}
+
+.blogItem{
+    margin:20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.blogcontainer h1{
+
+    font-family: 'Fira Sans', sans-serif; 
+    margin:23px; 
+}
+
+.blogcontainer{
+
+    margin:10px 88px; 
+}
+
+.blogItem p{
+    font-family: 'Source Code Pro', monospace;   
+}
+
+
+.h1{
+
+    font-family: 'Fira Sans', sans-serif; 
+    margin:23px; 
+}
+
+.p{
+    font-family: 'Source Code Pro', monospace;   
+}
+
+.intro{
+    margin:10 88px;
+
+}
+
+.intro h2{
+    font-family: 'Fira Sans', sans-serif; 
+    margin:12px;
+    padding:40px;
+    
+}
+
+.intro p{
+    font-family: 'Source Code Pro', monospace; 
+    margin:12px; 
+    padding:12px;
+}
+
+.Project h2{
+    font-family: 'Fira Sans', sans-serif; 
+    margin:12px;
+    padding:12px;
+    
+}
+
+.skillcontainer{
+    padding:12px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace; 
+    font-weight: 800;
+}
+
+.skill{
+    width:250px;
+    height: 10px;
+    background-color:green;
+    border:2px black;
+}
+
+.hund{
+    width: 250px;
+}
+.fifty{
+    width: 125px;
+    background-color: green;
+}
+
+.t5{
+    width:75px;
+    background-color:aqua;
+}
+
+@media (max-width:1615px){
+
+    .devPic{
+        display: none;
+    }
+    .intro, .blogcontainer, .contactform{
+        margin:50px 8px;
+    }
+    
+    .buttons{
+        font-size: 5px;
+    }
+}
+
+.sidebarGo{
+    transform:translate(-443px, 0px);
+    position:absolute;
+}
+
+.hamburg{
+
+    position:absolute;
+    cursor:pointer;
+    top:10px;
+    left:10px;
+}
+
+.cross{
+    margin-left: 185px;
+    margin-top: 10px;
+}
+.ham{
+    margin-top:10px;
+    margin-left: 10px;
+}
